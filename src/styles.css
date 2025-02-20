@@ -1,0 +1,160 @@
+/* Body Alignment */
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* To remove underline */
+a {
+    text-decoration: none;
+}
+
+/* Spacing For Navbar */
+#navbar {
+    padding: 8px;
+    margin: 0px;
+}
+
+/* Logo/Navbar Editing */
+#Logo {
+    height: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+/* Banner Properties */
+#banner {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Showing Two <div> side by side */
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Showing Two <div> side by side */
+#description {
+    width: 50%;
+    padding: 0 10px;
+}
+
+/* Showing Two <div> side by side */
+#team {
+    width: 50%;
+}
+/* Showing Two <div> side by side and radius cover the edge */
+#team-image {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Location For Jobs */
+.Location {
+    color: gray;
+    margin-bottom: 16px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#jobs-table {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.jobs-header-row th {
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: aliceblue;
+}
+
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: center;
+}
+
+#jobs-table tr:nth-child(odd) {
+    background-color: ghostwhite;
+}
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0.8px;
+}
+
+#job-role {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+/* making apply button to move right */
+.apply {
+    float: right;
+}
+
+.subscription-box {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.subscription-box input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscription-box button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.subscription-box button:hover {
+    background-color: #218838;
+}
+
+/* Buttom of the wabpage which is called the footer*/
+#Footer {
+    background-color: ghostwhite;
+    padding: 8px;
+    margin: 32px;
+    text-align: center;
+}
+
+/* For Unoredered */
+#Footer-links {
+    list-style: none;
+}
+
+#Footer-links li {
+    display: inline;
+    margin: 0 16px;
+}
+
+.copyright {
+    color: gray;
+}
